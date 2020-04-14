@@ -171,6 +171,10 @@ function init() {
     gl.STATIC_DRAW
     );
 
+  let n = 10;
+  let m = 10;
+  var verts = [];
+
 
   // Vertex
   shaderSource = shaderText["vertex"];
